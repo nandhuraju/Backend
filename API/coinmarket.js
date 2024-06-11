@@ -6,8 +6,7 @@ async function AsyFn()
     
     console.log(y)
 
-    // console.log("The temperature of tvm is : "+y.main.temp)
-    
+   
     // await(response=>response.json())
     // (json=>console.log(json))
  

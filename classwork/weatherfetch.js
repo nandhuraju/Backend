@@ -4,7 +4,7 @@ async function AsyFn()
     // console.log(y)
 
     console.log("The temperature of tvm is : "+y.main.temp)
-    catch error
+    // catch error
     // await(response=>response.json())
     // (json=>console.log(json))
  

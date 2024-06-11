@@ -1,7 +1,7 @@
 
 function add(a, b, callback) {
     setTimeout(() => {
-      const result = a + b;
+      let result = a + b;
       console.log(`Adding ${a} and ${b}: ${result}`);
       callback(result);
     }, 3000);
@@ -12,28 +12,28 @@ function add(a, b, callback) {
  
   function multiplyByTwo(number, callback) {
     setTimeout(() => {
-      const result = number * 2;
+      let result = number * 2;
       console.log(`Multiplying ${number} by 2: ${result}`);
       callback(result);
-    }, 1000);
+    }, 2000);
   }
   
  
   function subtractThree(number, callback) {
     setTimeout(() => {
-      const result = number - 3;
+      let result = number - 3;
       console.log(`Subtracting 3 from ${number}: ${result}`);
       callback(result);
-    }, 1000);
+    }, 2000);
   }
   
  
   function divideByFour(number, callback) {
     setTimeout(() => {
-      const result = number / 4;
+      let result = number / 4;
       console.log(`Dividing ${number} by 4: ${result}`);
       callback(result);
-    }, 1000);
+    }, 2000);
   }
   
  

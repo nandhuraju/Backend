@@ -1,6 +1,6 @@
 let promise= new Promise(function(resolve,reject){
     setTimeout(function(){
-        resolve("Promise not resolved")
+        resolve("Promise resolved")
     },10000
 )
 });

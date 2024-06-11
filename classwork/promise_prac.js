@@ -1,6 +1,6 @@
 let promise = new Promise(function (resolve, reject) {
     let x = 5
-    let y = 6
+    let y = 4
     z = x + y
     if (z >= 15) {
         resolve()
